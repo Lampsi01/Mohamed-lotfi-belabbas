@@ -1,3 +1,4 @@
+ 
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Tilt+Prism&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Oswald&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Tilt+Prism&display=swap');
  * {
@@ -49,7 +50,7 @@
       background-size: cover;
       background-color: rgba(90, 90, 90,90%)  ;
       background-blend-mode: darken;
-      /*background-attachment: fixed; */
+      /* background-attachment: fixed; */
       padding:200px 200px;
       color: white;
       display: flex; 
@@ -217,6 +218,10 @@
  .left-block #subject {
       height:200px;
       width: 100%;
+      max-width: 100%;
+      max-height: 200px;
+      min-width: 100%;
+      min-height: 200px;
       font-size:20px ;
       border-radius: 5px;
 
@@ -265,7 +270,11 @@
       .navigation a{   
             font-size: 0.8em; 
             padding: 0px;
-            margin-left:10px ;
+            margin-left:30px ;  
+      }
+      .navigation {   
+         
+            margin-left:30px ;
       }
       .logo {
             font-size: 1.4em; 
@@ -406,3 +415,4 @@
       }
 
 }
+ 
