@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Tilt+Prism&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Oswald&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Tilt+Prism&display=swap');
+ * {
+      box-sizing: border-box;
+       font-family: 'Poppins','sans-serif';  
+      margin :0 ; padding:0; 
+      scroll-behavior: smooth;
+       
+ }
+ 
+ body{
+      overflow-x: hidden;
+ }
+ header {
+      background-color: #f0f0f0; 
+      width: 100%; 
+      position: fixed;
+      z-index: 90;
+      display: flex; 
+      justify-content: space-between;
+      align-items: center;
+      
+      padding: 10px 200px; 
+      overflow-x: hidden;
+ }
+.logo {
+      font-size:1.8em; 
+      font-weight: 700;
+      text-decoration: none; 
+      color:#3a6cf4; 
+      text-transform:uppercase;
+}
+.navigation a{
+      text-decoration: none;
+      color:#3a6cf4; 
+      font-size: 1.1m;
+      font-weight: 500;
+      padding: 0px 10px 0 10px;
+}
+.navigation a:hover {
+      color: #b455a4;
+}
+
+.main { 
+      width:100%; 
+      min-height: 100vh;
+      background-image: url('819837.png');
+      background-position: center;
+      background-size: cover;
+      background-color: rgba(90, 90, 90,90%)  ;
+      background-blend-mode: darken;
+      /* background-attachment: fixed; */
+      padding:200px 200px;
+      color: white;
+      display: flex; 
+      align-items: center;  
+      overflow-x: hidden;
+
+}
+#work {
+      font-size: 1.8em;
+      font-weight: 800; 
+      text-transform: uppercase; 
+}
+#idk {
+      font-size: 1.2em;
+}
+.b1{
+      display: inline-block;
+      font-size: 25px;
+      text-decoration:none;
+      color:white;
+      /* background-color: #c01b31; */ 
+      background-color: #3a6cf4;
+      margin-left:10px ;  
+      padding: 0.2em;
+     
+      border-radius: 10px;
+      transition: 0.6s ease;
+      
+}
+.b1:hover {
+      background-color:darkblue;
+     
+      transform: scale(1.1);
+      
+}
+.social-icons a {
+      display: inline-block;
+      margin: 13px ;
+      font-size: 35px;
+      color: azure;
+      
+}
+
+.social-icons a:hover {
+      color:#3a6cf4;
+}
+
+.section2 {
+      height: 100vh;
+}
+.title{
+      position:  center;
+      text-align: center;
+      padding: 40px;
+      font-size: 30px; font-weight: 700;
+      color:#3a6cf4;
+}
+.cards{
+      background-color: white;
+      height: auto;
+      width: 100%;
+}
+ 
+.content {
+     display: grid;
+     /* grid-template-columns: 400px 400px 400px; */
+     grid-template-columns: repeat(auto-fill, 400px);
+    
+     justify-content: center;
+     gap: 30px;
+     
+}
+.icon {
+      font-size: 180px;
+      text-align: center;
+      color: #3a6cf4;
+}
+.info h3 , .info p{
+      text-align: center;
+      margin: 10px;
+}
+.info h3 {
+      font-size:25px;
+      color:#3a6cf4;
+}
+ 
+.card {
+      background-color:#f0f0f0 ;
+      box-shadow: 0 5px 25px rgba(1, 1,1,30%);
+      border-radius: 6px;
+      transition: 0.3s ease;
+      
+}
+.card:hover {
+      transform: scale(1.1);
+}
+
+/* /################# projects #################33 */
+
+
+.projects {
+        background-color: #142836;
+      /* height: 100vh;   */
+      overflow-x: hidden;
+
+}
+.project-card {
+      background-color: antiquewhite;
+      border-radius: 8px;
+      cursor: pointer;
+      max-height: 400px;
+      
+       
+      
+}
+ 
+.project-card img {
+      width: 400px; 
+      max-width: 400px;  
+      height:260px; 
+      max-height: 260px; min-height: 260px;
+      border-radius: 8px;
+       
+      
+}
+.project-card a  {
+      float:right;
+      text-decoration: none;
+      color:black; 
+      font-weight: 400;
+  
+
+}
+.project-card a:hover {
+      color:#3a6cf4;
+}
+.project-card h3  , .project-card p{
+      margin: 15px;
+}
+
+ 
+/* ######################3 contact ################33 */ 
+.contact {
+      background-color: #13161D;  
+      overflow-x: hidden;
+}
+.contact .title {
+      color:#3a6cf4
+}
+ .main-block{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      
+
+ }
+ .left-block{
+      /* border:solid; */
+      width:500px;
+ }
+ .left-block input {
+      padding: 10px;
+      width: 100%;
+      border:none;
+      font-size:20px ;
+      border-radius: 5px;
+ }
+ .left-block #subject {
+      height:200px;
+      width: 100%;
+      max-width: 100%;
+      max-height: 200px;
+      min-width: 100%;
+      min-height: 200px;
+      font-size:20px ;
+      border-radius: 5px;
+
+ }
+ .left-block .b1 {
+      padding: 5px;
+      font-size:20px;
+      border:none;
+      width:150px
+ }
+ .left-block label {
+      color:white; 
+ }
+.right-block svg {
+      width:800px; 
+    
+       
+}
+.footer .social-icons a {
+      color:black;
+      font-size: 25px;
+      margin: 16px;
+}
+.footer {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 120px;
+      overflow-x: hidden;
+}
+.footer p {
+      margin: 10px;
+
+}
+.footer p span {
+      color: #142836;
+      font-family: Climate Crisis;
+      
+}
+
+@media (max-width:900px){
+      header{
+            padding: 12px 10px;  
+            justify-content: start;
+      }
+      .navigation a{   
+            font-size: 0.8em; 
+            padding: 0px;
+            margin-left:30px ;  
+      }
+      .navigation {   
+         
+            margin-left:30px ;
+      }
+      .logo {
+            font-size: 1.4em; 
+         
+      }
+
+      .main { 
+            width:100%; 
+            min-height: 100vh;
+            padding: 100px 80px;
+            align-items: start;  
+            justify-content: center;
+            background-size:cover;
+            background-position:right;
+      }
+      .main .main-block1 {
+             margin-top: 150px;  
+      }
+   
+      .social-icons a {
+           position: relative;
+           margin-bottom: 20px;
+           font-size: 25px;
+           color: azure;
+           
+     }
+      #work {
+            font-size: 1.1em;
+            font-weight: 600; 
+            text-transform: uppercase; 
+      }
+      #idk {
+            font-size: 0.8em;
+      }
+      .b1{
+            display: inline-block;
+            font-size: 15px;
+            text-decoration:none;
+            color:white;
+            /* background-color: #c01b31; */ 
+            background-color: #3a6cf4;
+            margin-left: 10px;
+            padding: 0.4em;
+            border-radius: 10px;
+            transition: 0.6s ease;
+            
+      }
+      /* cards ################ */ 
+      .content {
+            display: grid;  
+            height: auto;
+            grid-template-columns: repeat(auto-fill, 280px);
+            grid-template-columns: repeat(auto-fill , auto);
+            justify-content: center;
+            gap: 30px;
+            
+       }
+       .icon {
+            font-size: 80px;
+            text-align: center;
+            color: #3a6cf4;
+      }
+      .info h3 {
+            font-size:18px;
+            color:#3a6cf4;
+            margin: 4px;
+      }
+      .info p{
+            text-align: center;
+            margin: 10px;
+            font-size:14px
+      }
+
+      .project-card img {
+            width: 100%;
+            border-radius: 8px;
+             
+            
+      }
+      /* ######## contact */ 
+      .left-block{
+            /* border:solid; */
+            width:300px;
+       }
+       .left-block input  {
+            padding: 7px;
+            width: 100%;
+            border:none;
+            font-size:15px ;
+            border-radius: 5px;
+       }
+       .left-block #subject {
+            height:180px;
+            width: 100%;
+            font-size:15px ;
+            border-radius: 5px;
+      
+       }
+       .left-block .b1 {
+            padding: 5px;
+            font-size:15px;
+            border:none;
+            width:125px
+       }
+       .right-block svg {
+            width:350px; 
+            height: 360px;
+          
+             
+      }
+      .left-block{
+            order:2;
+      }
+      .main-block {
+            justify-content: space-around;
+            align-items: flex-start ;
+      }
+      .footer{
+            flex-direction: column;
+      }
+
+      .footer p {
+            margin: 5px;
+            font-size: 11px;
+
+      }
+      .footer .social-icons a{
+            font-size: 20px;
+            margin: 10px;
+      }
+      .footer p span {
+            color: #142836;
+            font-family: Climate Crisis;
+            font-size: 15px;
+            font-weight: 400;
+            text-transform: lowercase;
+            
+      }
+
+}
